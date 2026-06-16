@@ -117,7 +117,7 @@ if st.button("診断する"):
 """
         }
 
-        st.header("🎉診断結果🎉")
+        st.header("診断結果")
 
         if len(best_matches) == 1:
             selected_character = best_matches[0]
