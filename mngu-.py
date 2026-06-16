@@ -146,7 +146,7 @@ if st.button("診断する"):
             f"あなたは『{'・'.join(reasons)}』を重視するタイプです！"
         )
 
-        st.subheader("🏆おすすめランキング")
+        st.subheader("おすすめランキング🏆")
 
         ranking = sorted(
             scores.items(),
